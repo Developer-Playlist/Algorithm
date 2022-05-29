@@ -1,4 +1,4 @@
-# Algorithm
+# 🔗 Algorithm
 
 This is a repository for studying Algorithm. 
 
