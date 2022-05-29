@@ -1,5 +1,5 @@
 ###
-# <기성> [x] : 로직이 이상함
+# <기성 1> [x] : 로직이 이상함
 from collections import deque
 
 n = int(input())
@@ -20,4 +20,21 @@ while traveler:
     all_group.append(group)
 
 print(len(all_group))
+
+# <기성 2> 답지 참고
+n = int(input())
+travelers_fearness = list(map(int, input().split()))
+
+travelers_fearness.sort()
+
+max_group = 0
+count = 0
+
+for traveler_fearness in travelers_fearness:
+    count += 1
+    if traveler_fearness <= count:
+        max_group += 1
+        count = 0
+
+print(max_group)
 ###
