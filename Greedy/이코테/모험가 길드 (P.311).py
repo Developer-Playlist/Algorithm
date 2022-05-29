@@ -1,5 +1,5 @@
 ###
-# <기성> [o]
+# <기성> [x] : 로직이 이상함
 from collections import deque
 
 n = int(input())
