@@ -38,6 +38,23 @@ for traveler_fearness in travelers_fearness:
 print(max_group)
 ###
 
+###
+# <민석> [O] 
+N = int(input())
+adventurer = list(map(int, input().split()))
+adventurer.sort()
+
+group = 0
+count = 0
+
+for i in adventurer:
+  count += 1
+  if adventurer > count:
+    group += 1
+    count = 0
+
+print(group)
+###
 
 
 
