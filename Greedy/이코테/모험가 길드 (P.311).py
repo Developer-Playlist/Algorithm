@@ -56,7 +56,23 @@ for i in adventurer:
 print(group)
 ###
 
+### 
+# <지수> [X]
+n = int(input()) 
+adventurer = list(map(int, input().split())) 
+adventurer.sort() 
 
+group = 0
+count = 0
+
+for i in adventurer:
+  count += 1
+  if count >= i:
+    group += 1
+    count = 0 #다음 그룹을 위해 모험가 수 초기화
+
+print(group)
+###
 
 
 
