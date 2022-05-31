@@ -1,5 +1,5 @@
 /**/
-// <하영> [o]
+// <하영> [o] : count로 조건넣어주는 로직보다 더 좋은 방법이 있을듯한데 모르겠다 힝 ㅠ
 const result = s =>{
   let count = 0;
   for(let i = 1; i < s.length; i++) {
