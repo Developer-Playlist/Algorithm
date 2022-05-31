@@ -62,8 +62,7 @@ for i in s:
     x *= 1
 
 print(x)
-
-
+###
 
 
 
