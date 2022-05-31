@@ -1,5 +1,5 @@
 /**/
-//<하영> [o]
+// <하영> [o]
 const result = s =>{
   let count = 0;
   for(let i = 1; i < s.length; i++) {
