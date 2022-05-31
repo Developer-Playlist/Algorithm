@@ -50,7 +50,18 @@ for i in range(len(S)):
 print(first)
 ###
 
+###
+# 지수 [X] : 1일 경우도 곱하기보단 더하기 했을 때 수가 커짐
+s = input()
 
+x = 0
+for i in s:
+  if i < 1 or x <1:
+    x += i
+  else:
+    x *= 1
+
+print(x)
 
 
 
