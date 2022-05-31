@@ -33,6 +33,21 @@ for idx, i in enumerate(target[1:]):
 print(result)
 ###
 
+###
+# 현지 [O] : 문자열/정수 변환하는데 시간을 많이 씀 & 코드 자체가 많이 repetitive 해보임
+S = input() #문자열 S가 주어짐
+first = int(S[0])
+
+for i in range(len(S)):
+    next = int(S[i])
+    if first == 0 or first == 1:
+        first += next
+    elif next == 0 or next == 1:
+        first += next
+    else:
+        first *= next
+
+print(first)
 
 
 
