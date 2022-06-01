@@ -36,7 +36,26 @@ for i in range(1, len(S)):
 print(result-1)
 ###
 
+###
+# <현지> [X]
+# 1. 0과1중에 반복횟수가 적은것을 min_num 변수에 저장 (문자열이 0과1로만 이루어져있기 때문에 가능)
+# 2. 하나씩 보면서 min_num과 같으면 바꿔주고, count를 하나 늘리기
+# 문제점 1. 반복횟수를 구하면서 list로 바꾸는게 너무 비효율적이다 -> least repeating number 구하는 좋은 방법 없을까?
+# 문제점 2. 연속된 숫자를 바꿀때 한번의 count로 행하는데 이걸 구현하지 못했다. 
 
+S = input()
+S_list = list(S)
+min_num = min(S_list, key=S_list.count) #0과 1중에 더 적은걸 찾기
+
+count = 0
+for i in range(len(S)):
+    if S[i] == min_num:
+        S[i] == 1-int(min_num)
+        count += 1
+    if count == len(S):
+        count = 0
+print(count)
+###
 
 
 
