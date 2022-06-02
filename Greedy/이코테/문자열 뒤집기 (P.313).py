@@ -57,15 +57,25 @@ for i in range(len(S)):
 print(count)
 ###
 
+### 
+#<지수> [X]
+#0이 되는 경우와 1이 되는 경우 중 더 적게 변환하는 값을 찾기
+#첫번째 이후 값은 어떻게 구하는 지 모르겠음... 정답보고 이해
 
+i = input()
 
+zero = 0
+one = 0
 
+if i[0] == '1':
+    zero += 1
+else:
+    one += 1
+   
 
+print(min(zero, one))
 
-
-
-
-
+###
 
 
 
