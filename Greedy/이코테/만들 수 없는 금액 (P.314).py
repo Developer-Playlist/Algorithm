@@ -55,7 +55,7 @@ else:
 #
 # 출력예시
 # 8
-# 
+
 # 모범답안
 n = int(input())
 data = list(map(int, input().split()))
