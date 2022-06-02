@@ -73,7 +73,7 @@ else:
     one += 1
    
 
-print(min(zero, one))
+print(zero, one) #더 적은 값 출력하기...
 
 ###
 
