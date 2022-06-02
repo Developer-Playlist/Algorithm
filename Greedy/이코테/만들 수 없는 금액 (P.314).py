@@ -39,8 +39,7 @@ cost = 0 # 만들 수 없는 금액 찾기
 for coin in coin_list:
     if cost + 1 < coin:
         break
-    else:
-        cost += coin
+    cost += coin
 print(cost + 1)
 ###
 
