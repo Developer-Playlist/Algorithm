@@ -28,6 +28,21 @@ else:
     print(result)
 ###
 
+###
+# <현지> [O] : 로직 생각한 후에 구현하는데 시간을 너무 많이 씀; 0으로 시작하는것보다 1로 시작하는게 훨씬 깔끔했을것 같다.
+x = int(input())
+coin_list = list(map, input().split())
+
+coin_list.sort()
+
+cost = 0 # 만들 수 없는 금액 찾기
+for coin in coin_list:
+    if cost + 1 < coin:
+        break
+    else:
+        cost += coin
+print(cost + 1)
+###
 
 
 
