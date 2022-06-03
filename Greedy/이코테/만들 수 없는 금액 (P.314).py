@@ -57,6 +57,27 @@ for i in coin:
     
 print(result)
 
+###
+
+### 
+# <지수> [X] : 로직 잘 못 생각함. 만들수 있는 모든 금액을 다 만들고 그 금액들중에 없는 값중에 최솟값을 찾으려했음. 답안보고 이해.
+n = int(input())
+data = list(map(int, input().split()))
+data.sort()
+
+target = 1
+for i in data:
+    if target < i:
+        break
+    target += i
+    
+print(target)
+
+###
+
+
+
+
 
 
 
