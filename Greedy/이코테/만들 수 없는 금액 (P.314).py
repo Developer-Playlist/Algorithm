@@ -43,17 +43,19 @@ for coin in coin_list:
 print(cost + 1)
 ###
 
+### 
+# < 민석 > [X] : 잘 모르겠어서 답지 참고함. 
+N = int(input())
+coin = list(map, input().split())
+coin.sort()
 
-
-
-
-
-
-
-
-
-
-
+result = 1
+for i in coin:
+    if coin < i:
+        break
+    result += i
+    
+print(result)
 
 
 
