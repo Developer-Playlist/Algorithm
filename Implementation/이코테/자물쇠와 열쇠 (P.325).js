@@ -5,3 +5,7 @@ function solution(key, lock) {
     return answer;
 }
 /**/
+
+
+
+//<재원> [x] : 구현불가222.... 이해중...
