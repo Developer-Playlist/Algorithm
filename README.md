@@ -10,7 +10,7 @@ This is a repository for studying Algorithm.
 # branch 생성 네이밍 규칙
 
 ```
-git branch <성명>/<문제 제목>-P.<문제 페이지수>
+git branch <성명>/<문제_제목>-P.<문제 페이지수>
 ```
 </br>
 예시
